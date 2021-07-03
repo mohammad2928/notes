@@ -1,5 +1,24 @@
-*** Naming format part of clean-code book ***
+*** Functions part of clean-code book ***
 
 
-#- Names should reveal intnet
-	a) meaningful 
+#- Rules
+	a) They should be small (The function should be no bigger than screen-full. (24 line, each line must at least have 150 characters))
+	b) Do one thing 
+	c) Stepdown rule (Reading code from top to buttom)
+	d) Use descriptive names (Do not afraid to make a name long)
+	e) No side effects (global variables)
+	f) Do not repate yourself
+
+# Function Arguments
+	a) The ideal nuber of argument is zero (niladic), one is good (Monadic) and the max is two (dyadic) and the trajedic is 3. 
+	b) The best for Monodic is event (no output argument) 
+
+# Output arguments
+	a)  Output arguments are harder to undrestand tahn input arguments. 
+
+
+# Important notes 
+	a) Flag arguments (Boolean variable), passing it is truly uggly. (make two function for each one)
+	b) Whera  a function need to have more than two arguemnt use an object as input 
+	c) Prefer exception to returning errors
+	d) Put try and except blocks outside a function by the name 
