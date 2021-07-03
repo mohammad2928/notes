@@ -1,0 +1,20 @@
+*** Unit tests ***
+
+
+# Test Driven Development (TDD) 
+	a) Write a failing unit test
+	b) Domain specific test
+	c) One assert per test
+	d) Single concept per test
+
+# Test propertise
+	a) Fast
+	b) Independent
+	c) reeatable 
+	d) They must have boolean output (pass or faild)
+	e) Timely
+
+
+# TDOO
+	a) Python unit tests
+	b) Requierments test

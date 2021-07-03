@@ -1,0 +1,7 @@
+*** Class format ***
+
+# Rules
+	a) Encapsolation (maintain privacy)
+	b) Should be small 
+	c) Single responsibility principle
+	d) Cohesion must be high
