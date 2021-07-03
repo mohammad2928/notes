@@ -1,0 +1,25 @@
+*** Naming format part of clean-code book ***
+
+
+#- Names should reveal intnet
+	a) meaningful 
+	b) explicite 
+		
+#- Rules 
+	a) Avoid disinformation 
+	b) Meaningful distinction  
+	C) Using pronouncable names
+	d) Using searchable names (use long name for long scopes)
+	e) Adoid encoding
+	f) Avoid mental mapping 
+	g) Do not be quilt
+	h) D ont pun (Do not use a word for two purposes)
+
+# Names
+	a) Class names must be a noun or phrase
+	b) Methods should be verb or verb phrase  
+
+#- Important notes
+	a) Noise words are redundant (like as a, the, an, ...)
+	b) Use domain names (use technical names)
+	c) shorter names are genarly is better than longer names

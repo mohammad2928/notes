@@ -1,0 +1,160 @@
+1- Python features
+	a) Interprate language (convert to .pyc file and than compile with cpython)
+	b) Dynamic type 
+	c) functions are first-class object (they can be assigned to a variable)
+	d) Support OOP (does not have access specifire like as c++ (public, private))
+	e) Use in many sphares
+	f) support pep (Python Enhancment in Python)
+	g) Python is casesensitice
+	h) neds to indention 
+	l) Free and cross-plateform language
+	m) Python is casesensetive. 
+	n) keywords can not be used as identifire. 
+
+2- Managing memory
+	a) Manage by python private heap sapce
+	b) The private heap managed by python memory manager 
+	c) Python also have an inbuilt garbage collector which recycle all the unused memory
+
+3- Namespace
+	a) Naming system used to make sure that names are unique to avoide conflict
+	b) Implemented as dictionary with "name as key" mapped to coresponding 'object as value'
+	c) Lifesycle of a namespace depends upon the scope of object they are mapped to
+
+4- Modules
+	a) Files contain python codes
+
+5- Variables
+	a) Local variables: variables which declare in the inside local space
+	b) Global variable: declare in outside of functions (can be used in local spaces)
+	c) Built-in: Built-in names which used in script with import
+	d) local >> global >> built-in
+	e) global, protectd (_sara), private (__sara)
+
+6- List VS Tuple 
+	a) List are mutable (editable) but tuple is not
+	b) List are slower than tuple
+
+7- Types
+	a) Numeric: int, float, complex, bool
+	b) Sequence: list, tuple, range
+	c) Text: str
+	d) Mapping: dict
+	e) set: Set, frozenset
+	f) Built-in functions
+	g) Modules
+
+8- Type conversion 
+	a) int(), float(), ord()[string to int], hex()[int to hex], oct()[int to oct], tuple(), list(), dict(), set(), str(), complex(real, image)
+
+9- Array VS List
+	a) List contain any types but array is not
+
+10- Definations
+	a) A function is a block of codes which execute just when called
+	b) __init__ is a method or constructor. allocate memory when a new instance created
+	c) lambda is an anonymous function (just have one statemnet)
+	d) Self is an instance or an object of a class (the first parameters of each method) 
+
+11- PYTHONPATH
+	a) A variable that tel python interpretore where to locate the module files [contain python libraries]
+
+12- List tricks
+	a) [::-1] (reverse the list), shuffle(list), 
+
+13- Iterator
+	a) Contains a countable number of values (__next__) (Lists, tuples, dictionaries, and sets are all iterable objects.)
+	b) Work with iter and next builtin functions
+	c) Functions that behave like as iterator is Generator (using yeild)
+
+14- Range vs xrange
+	a) For the most case they are the same
+	b) Range return a python list but xrange return an xrange object
+	c) Xrange use yield 
+	d) Xrange is faster than range for big numbers 
+
+15- String built-in functions
+	a) String.lower(), String.upper() 
+	b) Docstring is a string with multiple lines (""" """)
+	c) String.split(), string.strip(), strong.startswith(), string.endswith(), string.find(), string.islower(), string.isupper(), string.istitle(), string.capitalize()
+	d) strin.isdigit(), *.isnumeric(), *.isspace(), *.isdecimal()
+
+16- *args, **kwargs
+	a) *args show many argument and **kwarg show  keywor argument
+
+16- Extra	
+	a) doc() and help()  display symbols and documentation 
+	b) Ternary operator is the operator that is used to show the conditional statements ([on_true] if [expression] else [on_false])
+	c) module >> package >> library 
+	d) With ; we can write multiple lines in one line (multiple commands)
+	e)print(value, end="")
+
+17- Deep and shallow copy
+	a) Deep copy just copy the value (copy the refrence pointer) but deep copy, makes a new reference.  
+
+
+18- Inheritance and class
+	a) Single inheritance (class acquire the members of a single super class)
+	b) Muli-level inheritance
+	c) Hierarchical inheritance
+	d) Multiple inheritance:  derive from more than one parents
+	e) Support Polymorphism (parent and child have a variable with one name)
+	f) Encapsulation means binding the code and the data together
+
+19- Python tools
+	a) Dis 
+		1) to convert bytecode into a more human-readable format
+		2) import dis; dis.dis(function_name) 
+	b) Tabnanny
+		1) Checks code for ambiguous indentation
+		2) import tabnanny; tabnanny.check(python_file)
+	c) Profile
+		1) To know which parts of our code take the longest (To find the bottleneck)
+		2) import cprofile; cProfile.run("hashlib.md5('abcdefghijkl').digest()")
+	d) PDB 
+		1) Python debugger (help us to debug our code line by line)
+		2) import pdb; pdb.set_trace()
+
+20 - operators
+	a) +, -, /, *, **, //, %, <, >, ,=, >=, ==, !=, =, +=, -=, /=, *=, %=, **=, //=, and, or, not, in, is, &, |,  ~, <<, >>, ^ (bin)
+
+21- Python iterpretor works
+	a) Lexing: break lines into the tokens
+	b) Parsing: uses these tokens to generate a structure and create Abstarcted Syntax Tree (depice the relationsheep between tokens)
+	c) Compiling: turn AST to code object
+	d) Interpreting: excecute each code object
+
+22- Most famuse built-in functions
+	a) Complex(real, iamginary)
+	b) Eval(string), parsing string as a expression: eval('4+max(5,9)')= 13 
+	c) Filter(function, iterable), checking for which condition is true: list(filter(lambda x:x%2==0,[1,2,0,False])) = [2,0,False]  
+	d) Hash(value), return a hash value
+	e) Hex(int_number), convert int number to hexadecimal
+	f) Input(), len(), open(), set(), type(), enumerate(), chr(), ord(),  
+	g) Locals(), return a current local symboles table
+	h) Zip(list1, list2)
+	l) Bytes(value), return an immutable byte object
+	m) Map(function, iteratire), map each value of iteratore over function 
+	n) All(), return true if all elements of iteable was true, any(), if someone was true return true
+	i) Exec(program), run program (maybe a file or a command)
+	j) Repr(value), act like as str()
+	
+23- Dict functions
+	a) dict.values(), dict.keys(), dict.items() 
+
+
+
+## linkes:
+	1) https://www.edureka.co/blog/interview-questions/python-interview-questions/
+	2) https://www.interviewbit.com/python-interview-questions/
+	3) https://data-flair.training/blogs/top-python-interview-questions-answer/
+	4) https://intellipaat.com/blog/interview-question/python-interview-questions/
+	5) https://www.mygreatlearning.com/blog/python-interview-questions/
+	6) https://www.upgrad.com/blog/python-interview-questions-answers/
+	7) https://www.guru99.com/python-interview-questions-answers.html
+	8) https://www.cours-gratuit.com/python-courses/detailed-python-coding-interview-questions-and-answers-for-programmers
+	9) https://www.bogotobogo.com/python/python_interview_questions.php
+
+	
+
+

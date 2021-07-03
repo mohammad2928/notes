@@ -1,0 +1,5 @@
+*** Naming format part of clean-code book ***
+
+
+#- Names should reveal intnet
+	a) meaningful 

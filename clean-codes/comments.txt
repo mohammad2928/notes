@@ -1,0 +1,57 @@
+*** comment part of clean-code book ***
+
+
+#- When the code was written well, there is no need to write comments or at least need fewer comments.
+ 
+#- The goal of comments is compensate the failure in the code. 
+
+#- Rules:
+	a) Express yourself in the code (use good functionss instead of comments)
+	b) Comment must shows compensate of failur of codes
+	c) Comments means the programmer could not maintain the program and he/she lies (truth can only be found in the code).
+
+#- Comperhentions
+	a) no comment is better than a worse comment
+	b) clear code with few comments is better than complex code with more comment  
+	c)
+
+# Good comments:   
+	a) Legal comments (copyright or authorship or headers)   
+	b) Informative comments (provide basic information but it is better to use functions with that name)
+	c) Explain of intent
+	d) Clarification 
+	e) Warning of consequences  
+	f) TODO comments
+	g) Amplification 
+
+# Bad comments
+	a) Mumbeling (be sure it is the best comment that you can write)
+	b) Redundant comments 
+	c) Misleading comments 
+	d) Mandated comments 
+	e) Journal comments (log entries before any module)
+	f) Noise comments (provide no information)
+	g) banners
+	h) Bylines (name of the other)
+	l) comment-out code (codes which commented)
+	m) Too much information
+	n) Inobvious comments (comment must relate to the code)
+	p) Function headers 
+
+
+# Important
+	a) Do not use a comment when you can use a function or variable
+
+TODOD:
+	1) Use functions instead of comments
+	2) module header
+	3) Show warning in the comments and codes (decoration)
+	4) TODO functions
+	5) Good instruction 
+	6) removing journal comments (maybe)
+	7) Function or variables rules in python 
+	8) Remoce comment-out codes
+
+
+ 
+
