@@ -16,5 +16,5 @@
 
 
 # TDOO
-	a) Python unit tests
+	a) Python unit tests (pytest module)
 	b) Requierments test

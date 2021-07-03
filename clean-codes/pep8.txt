@@ -1,0 +1,23 @@
+*** Important pep8 rules ***
+
+# Nmaing
+	a) Function, variable, and methods names use lowercase words and separated by underscore
+	b) Class names use capital words and separate by a capital letter (the first character)
+	c) Constant names use uppercase words and separate by underscore 
+	d) Module names use short and lowercase words that separated by an underscore
+	e) Packages names use lowercase and short words and not separated 
+
+# Indent
+	a) Use blackslash to break line (\)
+	b) In the first line of arguments, do not put argument
+
+# Layouts
+	a) Each line should be limited by 79 charcters 
+	b) Surround top-level functions and classes with two blank lines
+	c) Surround methods  with one line 
+	d) Use blank lines inside the functions to show steps
+	e) Use a blank line before return function 
+	
+# Modules
+	a) pycodestyle
+	b) black
