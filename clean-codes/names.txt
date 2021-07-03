@@ -1,4 +1,4 @@
-*** Naming format part of clean-code book ***
+*** Naming format part of the clean-code book ***
 
 
 #- Names should reveal intnet
@@ -12,7 +12,7 @@
 	d) Using searchable names (use long name for long scopes)
 	e) Adoid encoding
 	f) Avoid mental mapping 
-	g) Do not be quilt
+	g) Do not be cute
 	h) D ont pun (Do not use a word for two purposes)
 
 # Names
@@ -22,4 +22,4 @@
 #- Important notes
 	a) Noise words are redundant (like as a, the, an, ...)
 	b) Use domain names (use technical names)
-	c) shorter names are genarly is better than longer names
+	c) shorter names are generally is better than longer names

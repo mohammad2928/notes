@@ -1,0 +1,11 @@
+*** Error handling format ***
+
+
+# Techniques 
+	a) Write your try-catch-finally first
+	b) Define the exception class
+	c) Do not return null
+
+
+# TODO
+	a) Types of exception in python 

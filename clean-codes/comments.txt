@@ -1,14 +1,14 @@
-*** comment part of clean-code book ***
+*** comment part of the clean-code book ***
 
 
 #- When the code was written well, there is no need to write comments or at least need fewer comments.
  
-#- The goal of comments is compensate the failure in the code. 
+#- The goal of comments is to compensate for the failure in the code. 
 
 #- Rules:
-	a) Express yourself in the code (use good functionss instead of comments)
-	b) Comment must shows compensate of failur of codes
-	c) Comments means the programmer could not maintain the program and he/she lies (truth can only be found in the code).
+	a) Express yourself in the code (use good functions instead of comments)
+	b) Comment must show compensation of failure of codes
+	c) Comments mean the programmer could not maintain the program and he/she lies (truth can only be found in the code).
 
 #- Comperhentions
 	a) no comment is better than a worse comment

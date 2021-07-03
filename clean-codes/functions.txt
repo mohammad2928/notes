@@ -2,23 +2,23 @@
 
 
 #- Rules
-	a) They should be small (The function should be no bigger than screen-full. (24 line, each line must at least have 150 characters))
+	a) They should be small (The function should be no bigger than screen-full. (24 lines, each line must at least have 150 characters))
 	b) Do one thing 
-	c) Stepdown rule (Reading code from top to buttom)
+	c) Stepdown rule (Reading code from top to bottom)
 	d) Use descriptive names (Do not afraid to make a name long)
 	e) No side effects (global variables)
-	f) Do not repate yourself
+	f) Do not repeat yourself
 
 # Function Arguments
-	a) The ideal nuber of argument is zero (niladic), one is good (Monadic) and the max is two (dyadic) and the trajedic is 3. 
-	b) The best for Monodic is event (no output argument) 
+	a) The ideal number of arguments is zero (niladic), one is good (Monadic) and the max is two (dyadic) and the tragedy is 3. 
+	b) The best for Monodic is an event (no output argument) 
 
 # Output arguments
-	a)  Output arguments are harder to undrestand tahn input arguments. 
+	a)  Output arguments are harder to understand than input arguments. 
 
 
 # Important notes 
-	a) Flag arguments (Boolean variable), passing it is truly uggly. (make two function for each one)
-	b) Whera  a function need to have more than two arguemnt use an object as input 
-	c) Prefer exception to returning errors
+	a) Flag arguments (Boolean variable), passing it is truly ugly. (make two functions for each one)
+	b) Where  a function need to have more than two arguments use an object as input 
+	c) Prefer exception to return errors
 	d) Put try and except blocks outside a function by the name 
